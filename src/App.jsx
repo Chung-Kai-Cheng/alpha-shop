@@ -1,6 +1,10 @@
-function App() {
+import Main from "./components/Main/Main";
+
+function App(){
   return (
-    <div></div>
+    <div>
+      <Main/>
+    </div>
   );
 }
 

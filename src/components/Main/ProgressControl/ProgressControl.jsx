@@ -6,34 +6,34 @@ export default function ProgressControl(){
     <section className="button-group col col-12" data-phase="address">
         <button className="next">
         下一步
-        <object
+        {/* <object
             data="./public/icons/right-arrow.svg"
             className="cursor-point"
-        ></object>
+        ></object> */}
         </button>
     </section>
     <section className="button-group col col-12" data-phase="shipping">
         <button className="prev">
-        <object
+        {/* <object
             data="./public/icons/left-arrow.svg"
             className="cursor-point"
-        ></object>
+        ></object> */}
         上一步
         </button>
         <button className="next">
         下一步
-        <object
+        {/* <object
             data="./public/icons/right-arrow.svg"
             className="cursor-point"
-        ></object>
+        ></object> */}
         </button>
     </section>
     <section className="button-group col col-12" data-phase="credit-card">
         <button className="prev">
-        <object
+        {/* <object
             data="./public/icons/left-arrow.svg"
             className="cursor-point"
-        ></object>
+        ></object> */}
         上一步
         </button>
         <button className="next">確認下單</button>

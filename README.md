@@ -1,5 +1,11 @@
 # Alpha-shop
 
+## Curent progress
+Main layout
+
+![image](https://github.com/njdhdl1223/Alpha-shop/assets/127296290/10cc8412-72d7-4244-a1b8-dd9ae764e98a)
+
+
 ## How to use
 1.Install Node.js
 ```bash

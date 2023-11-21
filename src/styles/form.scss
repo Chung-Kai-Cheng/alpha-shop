@@ -1,4 +1,5 @@
 @use 'sass:math';
+$screen-break-point: 749.5px;
 
 @mixin input-width($prefix, $division) {
     $form-full-width: 540;

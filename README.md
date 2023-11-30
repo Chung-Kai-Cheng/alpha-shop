@@ -3,8 +3,7 @@
 ## Curent progress
 Main layout
 
-![image](https://github.com/njdhdl1223/Alpha-shop/assets/127296290/10cc8412-72d7-4244-a1b8-dd9ae764e98a)
-
+![image](https://github.com/njdhdl1223/Alpha-shop/assets/127296290/52b284cb-9b2e-4de6-ad6f-779f9a5b5860)
 
 ## How to use
 1.Install Node.js

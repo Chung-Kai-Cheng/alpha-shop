@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Step1() {
+export default function Step3() {
   return (
     <form className="col col-12" data-phase="credit-card">
       <h3 className="form-title">付款資訊</h3>

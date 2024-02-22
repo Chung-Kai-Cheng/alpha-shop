@@ -1,81 +1,81 @@
 import React from "react";
-import '../../styles/footer.scss'
+import "../../styles/footer.scss";
 
-export default function Footer(){
-    return(
+export default function Footer() {
+  return (
     <footer className="site-footer">
-    <div className="footer-container">
+      <div className="footer-container">
         <section className="footer-section">
-        <div className="footer-logo-container">
+          <div className="footer-logo-container">
             <img src="/icons/logo.svg" className="cursor-point" />
-        </div>
+          </div>
         </section>
         <section className="footer-section">
-        <h2 className="section-title">客戶服務</h2>
-        <div className="section-content">
+          <h2 className="section-title">客戶服務</h2>
+          <div className="section-content">
             <a className="page-link" href="#">
-            運送說明
+              運送說明
             </a>
             <a className="page-link" href="#">
-            退換貨相關
+              退換貨相關
             </a>
             <a className="page-link" href="#">
-            付款資訊
+              付款資訊
             </a>
             <a className="page-link" href="#">
-            FAQ
+              FAQ
             </a>
-        </div>
+          </div>
         </section>
         <section className="footer-section">
-        <h2 className="section-title">關於我們</h2>
-        <div className="section-content">
+          <h2 className="section-title">關於我們</h2>
+          <div className="section-content">
             <a className="page-link" href="#">
-            品牌故事
+              品牌故事
             </a>
             <a className="page-link" href="#">
-            媒體聯繫
+              媒體聯繫
             </a>
             <a className="page-link" href="#">
-            Press kit
+              Press kit
             </a>
-        </div>
+          </div>
         </section>
         <section className="footer-section">
-        <h2 className="section-title">資訊</h2>
-        <div className="section-content">
+          <h2 className="section-title">資訊</h2>
+          <div className="section-content">
             <a className="page-link" href="#">
-            隱私權政策
+              隱私權政策
             </a>
             <a className="page-link" href="#">
-            Cookie
+              Cookie
             </a>
             <a className="page-link" href="#">
-            GDPR
+              GDPR
             </a>
-        </div>
+          </div>
         </section>
         <section className="footer-section">
-        <h2 className="section-title">追蹤 ALPHA Shop</h2>
-        <div className="section-content">
+          <h2 className="section-title">追蹤 ALPHA Shop</h2>
+          <div className="section-content">
             <div className="tel-info">+886 02123-45678</div>
             <div className="social-icon-group">
-            <object
+              <object
                 data="/icons/facebook.svg"
                 className="social-icon cursor-point"
-            />
-            <object
+              />
+              <object
                 data="/icons/instagram.svg"
                 className="social-icon cursor-point"
-            />
-            <object
+              />
+              <object
                 data="/icons/whatsapp.svg"
                 className="social-icon cursor-point"
-            />
+              />
             </div>
-        </div>
+          </div>
         </section>
-    </div>
+      </div>
     </footer>
-    )
+  );
 }

@@ -6,15 +6,15 @@ import ProgressControl from "./ProgressControl/ProgressControl";
 export default function Main() {
   const [step, setStep] = useState(1);
 
-  const handleStep = (onStepChange) => {
-    setStep(step + onStepChange);
-  };
+  // const handleStep = (onStepChange) => {
+  //   setStep(step + onStepChange);
+  // };
   return (
     <main class="site-main">
       <div class="main-container">
         <StepProgress step={step} />
         <Cart />
-        <ProgressControl onStepChange={handleStep} />
+        <ProgressControl step={step} setStep={setStep} />
       </div>
     </main>
   );

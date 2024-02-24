@@ -4,8 +4,10 @@ export default function Items({ name, img, price, onQuantityChange }) {
   const [quantity, setQuantity] = useState(0);
 
   const handleQuantityMinus = () => {
-    setQuantity(quantity - 1);
-    onQuantityChange(price, -1);
+    if (quantity > 0) {
+      setQuantity(quantity - 1);
+      onQuantityChange(price, -1);
+    }
   };
 
   const handleQuantityPlus = () => {

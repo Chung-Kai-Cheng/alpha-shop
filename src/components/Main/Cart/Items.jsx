@@ -1,6 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 
-export default function Items({ name, img, price, quantity }) {
+export default function Items({ name, img, price, onQuantityChange }) {
+  const [quantity, setQuantity] = useState(0);
+
+  const handleQuantityMinus = () => {
+    setQuantity(quantity - 1);
+    onQuantityChange(price, -1);
+  };
+
+  const handleQuantityPlus = () => {
+    setQuantity(quantity + 1);
+    onQuantityChange(price, 1);
+  };
+
   return (
     <div
       className="product-container col col-12"
@@ -19,12 +31,14 @@ export default function Items({ name, img, price, quantity }) {
               className="product-action minus"
               src="/icons/minus.svg"
               alt="minus"
+              onClick={handleQuantityMinus}
             />
             <span className="product-count">{quantity}</span>
             <img
               className="product-action plus"
               src="/icons/plus.svg"
               alt="plus"
+              onClick={handleQuantityPlus}
             />
             {/* <svg className="product-action plus">
                 <use xlinkHref="#svg-icon-plus" />

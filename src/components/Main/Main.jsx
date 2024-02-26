@@ -6,9 +6,6 @@ import ProgressControl from "./ProgressControl/ProgressControl";
 export default function Main() {
   const [step, setStep] = useState(1);
 
-  // const handleStep = (onStepChange) => {
-  //   setStep(step + onStepChange);
-  // };
   return (
     <main class="site-main">
       <div class="main-container">

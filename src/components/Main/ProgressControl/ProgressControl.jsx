@@ -1,13 +1,12 @@
 import React from "react";
 
-export default function ProgressControl({ step, setStep }) {
+export default function ProgressControl({ setStep }) {
   const handleNextStep = () => {
-    setStep(step + 1);
-
+    setStep(prevStep => prevStep + 1);
   };
 
   const handlePrevStep = () => {
-    setStep(step - 1);
+    setStep(prevStep => prevStep - 1);
   };
 
   return (
